@@ -35,7 +35,7 @@ export default function Home() {
   const notify = (message: string) => { setNotice(message); window.setTimeout(() => setNotice(""), 2600); };
   return <main className="academy-shell">
     <aside className={`sidebar ${menu ? "open" : ""}`}>
-      <div className="brand"><div className="brand-logo"><img src="/durckheim-logo.png" alt="Durckheim AB" /></div><div><strong>DURCKHEIM</strong><span>ONCOLOGY ACADEMY</span></div><button className="mobile-close" onClick={() => setMenu(false)} aria-label="Close navigation"><Icon name="close" /></button></div>
+      <div className="brand"><div className="brand-logo"><img src="https://raw.githubusercontent.com/durckheim1994-tech/durckheim-ab/main/public/durckheim-round-logo-clean.png" alt="Durckheim AB" /></div><div><strong>DURCKHEIM</strong><span>ONCOLOGY ACADEMY</span></div><button className="mobile-close" onClick={() => setMenu(false)} aria-label="Close navigation"><Icon name="close" /></button></div>
       <div className="profile-block"><div className="avatar">DB</div><div><strong>Dr. Durckheim Blessing</strong><span>{role} · Cohort 2026</span></div></div>
       <nav aria-label="Main navigation"><p className="nav-label">ACADEMY</p>{nav.map(([icon, label]) => <button key={label} className={active === label ? "active" : ""} onClick={() => { setActive(label); setMenu(false); }}><Icon name={icon}/><span>{label}</span>{label === "Live sessions" && <b>3</b>}</button>)}<p className="nav-label lower">SUPPORT</p><button onClick={() => notify("Support centre opened")}><Icon name="help"/><span>Help centre</span></button></nav>
       <div className="sidebar-card"><span>PROGRAM PROGRESS</span><strong>Year 1 of 5</strong><div className="progress"><i style={{width:"36%"}}/></div><small>36% completed</small></div>
