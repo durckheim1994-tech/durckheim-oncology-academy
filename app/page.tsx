@@ -32,8 +32,8 @@ export default function Home() {
           <div className="pointer-events-none absolute -right-28 top-24 h-96 w-96 rounded-full border border-white/10" />
           <div className="pointer-events-none absolute -right-12 top-40 h-64 w-64 rounded-full border border-white/10" />
           <a href="https://durckheim.com" className="relative z-10 flex w-fit items-center gap-4" aria-label="Durckheim AB home">
-            <span className="flex h-[82px] w-[82px] items-center justify-center overflow-hidden rounded-2xl bg-white p-2.5 shadow-xl">
-              <img src="/durckheim-logo.png" alt="Durckheim logo" className="h-full w-full object-contain" />
+            <span className="flex h-[92px] w-[92px] items-center justify-center overflow-hidden">
+              <img src="https://raw.githubusercontent.com/durckheim1994-tech/durckheim-ab/main/public/durckheim-round-logo-clean.png" alt="Durckheim logo" className="h-full w-full object-contain" />
             </span>
             <span><strong className="block text-lg tracking-[0.22em]">DURCKHEIM</strong><span className="mt-1 block text-[10px] tracking-[0.25em] text-[#c6d5c5]">ONCOLOGY ACADEMY</span></span>
           </a>
@@ -52,7 +52,7 @@ export default function Home() {
         <section className="flex items-center justify-center px-5 py-10 sm:px-10 lg:px-14">
           <div className="w-full max-w-[470px]">
             <div className="mb-9 flex items-center justify-between">
-              <div className="flex items-center gap-3 lg:hidden"><img src="/durckheim-logo.png" alt="Durckheim logo" className="h-10 w-10 object-contain" /><span className="text-xs font-bold tracking-widest">DURCKHEIM ACADEMY</span></div>
+              <div className="flex items-center gap-3 lg:hidden"><img src="https://raw.githubusercontent.com/durckheim1994-tech/durckheim-ab/main/public/durckheim-round-logo-clean.png" alt="Durckheim logo" className="h-10 w-10 object-contain" /><span className="text-xs font-bold tracking-widest">DURCKHEIM ACADEMY</span></div>
               <label className="ml-auto"><span className="sr-only">Language</span><select value={language} onChange={e => setLanguage(e.target.value)} className="rounded-lg border border-[#dce4dc] bg-white px-3 py-2 text-xs text-[#4f6657]">{["English", "Swedish", "French", "Arabic", "Spanish"].map(item => <option key={item}>{item}</option>)}</select></label>
             </div>
             <div className="mb-7"><p className="text-[10px] font-bold uppercase tracking-[0.22em] text-[#78964f]">Academy access</p><h2 className="mt-3 font-serif text-3xl text-[#173b2a] sm:text-4xl">Welcome back</h2><p className="mt-2 text-sm text-[#748176]">Sign in to continue to your learning and professional portal.</p></div>
