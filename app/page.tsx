@@ -52,7 +52,7 @@ export default function Home() {
         <section className="flex items-center justify-center px-5 py-10 sm:px-10 lg:px-14">
           <div className="w-full max-w-[470px]">
             <div className="mb-9 flex items-center justify-between">
-              <div className="flex items-center gap-3 lg:hidden"><img src="/durckheim-logo.png" alt="Durckheim logo" className="h-10 w-10 object-contain" /><span className="text-xs font-bold tracking-widest">DURCKHEIM ACADEMY</span></div>
+              <a href="https://www.durckheim.com" aria-label="Visit Durckheim AB main website" className="flex items-center gap-3 lg:hidden"><img src="/durckheim-logo.png" alt="Durckheim logo" className="h-10 w-10 object-contain" /><span className="text-xs font-bold tracking-widest">DURCKHEIM ACADEMY</span></a>
               <label className="ml-auto"><span className="sr-only">Language</span><select value={language} onChange={e => setLanguage(e.target.value)} className="rounded-lg border border-[#dce4dc] bg-white px-3 py-2 text-xs text-[#4f6657]">{["English", "Swedish", "French", "Arabic", "Spanish"].map(item => <option key={item}>{item}</option>)}</select></label>
             </div>
             <div className="mb-7"><p className="text-[10px] font-bold uppercase tracking-[0.22em] text-[#78964f]">Academy access</p><h2 className="mt-3 font-serif text-3xl text-[#173b2a] sm:text-4xl">Welcome back</h2><p className="mt-2 text-sm text-[#748176]">Sign in to continue to your learning and professional portal.</p></div>
