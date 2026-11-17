@@ -31,7 +31,7 @@ export default function Home() {
         <section className="relative flex min-h-[430px] flex-col overflow-hidden bg-[#123b2a] px-7 py-8 text-white sm:px-12 lg:min-h-screen lg:px-16 lg:py-12">
           <div className="pointer-events-none absolute -right-28 top-24 h-96 w-96 rounded-full border border-white/10" />
           <div className="pointer-events-none absolute -right-12 top-40 h-64 w-64 rounded-full border border-white/10" />
-          <a href="https://durckheim.com" className="relative z-10 flex w-fit items-center gap-4" aria-label="Durckheim AB home">
+          <a href="https://www.durckheim.com" className="relative z-10 flex w-fit items-center gap-4" aria-label="Durckheim AB home">
             <span className="flex h-[92px] w-[92px] items-center justify-center overflow-hidden">
               <img src="/durckheim-logo.png" alt="Durckheim logo" className="h-full w-full object-contain" />
             </span>
@@ -46,7 +46,7 @@ export default function Home() {
               <div className="rounded-xl border border-white/15 bg-white/[0.06] p-5"><p className="text-[10px] font-semibold uppercase tracking-[0.18em] text-[#c2d69a]">Nursing professionals</p><p className="mt-2 font-serif text-2xl">2-year pathway</p><p className="mt-2 text-xs leading-5 text-[#d2ded4]">Specialist oncology nursing education.</p></div>
             </div>
           </div>
-          <div className="relative z-10 flex flex-wrap justify-between gap-3 border-t border-white/15 pt-5 text-[11px] text-[#c2d2c5]"><span>Structured learning · Faculty-led teaching · Clinical excellence</span><a href="https://durckheim.com" className="text-white">durckheim.com ↗</a></div>
+          <div className="relative z-10 flex flex-wrap justify-between gap-3 border-t border-white/15 pt-5 text-[11px] text-[#c2d2c5]"><span>Structured learning · Faculty-led teaching · Clinical excellence</span><a href="https://www.durckheim.com" className="text-white">durckheim.com ↗</a></div>
         </section>
 
         <section className="flex items-center justify-center px-5 py-10 sm:px-10 lg:px-14">
