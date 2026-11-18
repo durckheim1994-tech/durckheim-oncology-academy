@@ -34,7 +34,7 @@ export default function AcademyAccessPage() {
   return (
     <main className="flex min-h-screen items-center justify-center bg-[#f4f6f3] px-5 py-12 text-[#173b2a]">
       <section className="w-full max-w-md rounded-2xl border border-[#e1e8df] bg-white p-8 shadow-xl sm:p-10">
-        <div className="mx-auto mb-6 flex h-[92px] w-[92px] items-center justify-center">
+        <div className="mx-auto mb-6 flex h-[180px] w-[180px] items-center justify-center">
           <a href="https://www.durckheim.com" aria-label="Visit Durckheim AB main website" className="block h-full w-full"><img src="/durckheim-logo.png" alt="Durckheim logo" className="h-full w-full object-contain" /></a>
         </div>
         <p className="text-center text-[10px] font-bold uppercase tracking-[0.24em] text-[#78964f]">Durckheim Oncology Academy</p>
