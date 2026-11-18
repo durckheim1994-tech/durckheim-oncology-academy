@@ -34,8 +34,8 @@ export default function AcademyAccessPage() {
   return (
     <main className="flex min-h-screen items-center justify-center bg-[#f4f6f3] px-5 py-12 text-[#173b2a]">
       <section className="w-full max-w-md rounded-2xl border border-[#e1e8df] bg-white p-8 shadow-xl sm:p-10">
-        <div className="mx-auto mb-6 flex h-32 w-32 items-center justify-center">
-          <a href="https://www.durckheim.com" aria-label="Visit Durckheim AB main website" className="block h-full w-full"><img src="/durckheim-logo.png" alt="Durckheim emblem" className="h-full w-full object-contain" /></a>
+        <div className="mx-auto mb-6 flex h-32 w-32 items-center justify-center overflow-hidden relative">
+          <a href="https://www.durckheim.com" aria-label="Visit Durckheim AB main website" className="block h-full w-full relative overflow-hidden"><img src="/durckheim-logo.png" alt="Durckheim emblem" className="absolute left-1/2 top-1/2 h-[208px] w-[208px] max-w-none -translate-x-1/2 -translate-y-1/2 object-cover" /></a>
         </div>
         <p className="text-center text-[10px] font-bold uppercase tracking-[0.24em] text-[#78964f]">Durckheim Oncology Academy</p>
         <h1 className="mt-3 text-center font-serif text-3xl">Private access</h1>
